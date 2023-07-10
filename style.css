@@ -1,0 +1,82 @@
+*{ 
+    margin: 0 ;
+    padding: 0 ;
+}
+/* common style */
+.btn{
+    padding: 20px;
+    background-color: rgb(226, 43, 104);
+    color: aliceblue;
+    border-radius:10px ;
+    border: none;
+    font-size: 18px;
+    font-family:serif;
+    font-weight: 700;
+}
+.btn:hover{ 
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+}
+ 
+/* nav start */
+nav{ 
+    position: fixed;
+    width: 100%;
+}
+span{ 
+    color:#F52C2C ;
+}
+.nav-container{
+
+display: flex; 
+justify-content: space-evenly;
+align-items: center;
+background-color: darkgray;
+padding: 20px;
+position:sticky;
+
+
+} 
+.nav-link ul{ 
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link ul li{ 
+    list-style: none;
+}
+.nav-link ul li a{ 
+    text-decoration: none;
+    margin-left: 30px;
+    color: aliceblue;
+    font-size: 22px;
+}
+/* nav end */
+/* banner start  */
+.banner-container{ 
+    height: 100vh;
+    background-image: url(asset/image/background.jpg),
+    linear-gradient(rgba(128, 128, 128, 0.438),rgba(4, 128, 0, 0.685));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+   
+   
+   
+}
+.banner-doc h1{ 
+color: black;
+font-size: 44px;
+
+}
+.banner-doc p{ 
+    color:orangered;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
